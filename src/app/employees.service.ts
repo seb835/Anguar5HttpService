@@ -9,7 +9,7 @@ import 'rxjs/add/observable/throw';
 @Injectable()
 export class EmployeesService {
 
-  private _url = '/assets/data/employees.json';
+  private _url = '/assets/data/employees.jsosn';
 
   constructor(private http: HttpClient) { }
 
